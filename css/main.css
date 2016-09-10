@@ -1,4 +1,4 @@
-* {
+nav {
 	font-family: 'Roboto', sans-serif !important;
 }
 .verde {
@@ -14,7 +14,43 @@
 nav img {
 	margin-left: 15px;
 }
+/*FONDOS*/
+.bg-banner {
+	background-image: url("../img/carousel-bg.jpg");
+}
+.line1p5 {
+	line-height: 1.5;
+}
+.line2 {
+	line-height: 2;
+}
 
+@media screen and (min-width: 1200px) {
+    h2 {
+    font-size: 3.6em;
+    }
+    .banner {
+	font-size: 1.5em;
+	font-weight: 100 !important;
+}
+}
+@media screen and (min-width: 992px) {
+    h2 {
+    font-size: 3em;
+    }
+    .banner {
+	font-size: 1.4em;
+	font-weight: 100 !important;
+}
+}
+@media screen and (max-width: 991px) {
+    h2 {
+    font-size: 2.3em;
+    }
+    .banner {
+    	font-size: 1.2em;
+    }
+}
 
 
 
