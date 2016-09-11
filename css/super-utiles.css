@@ -51,6 +51,10 @@
 	padding-left: 15%;
 	padding-right: 15%;
 }
+.pd-lr-25 {
+	padding-left: 25%;
+	padding-right: 25%;
+}
 .pd-0 {
 	padding: 0px !important;
 }
@@ -90,22 +94,32 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.bg-grisclaro {
-	background-color: lightgray;
-}
-.bg-gris {
-	background-color: gray;
-}
-.bg-griso{
-	background-color: #1B1B1C;
-}
+/*ESCALA DE GRISES*/
 .bg-negro {
-	background-color: black;
-}
+	background-color: rgb(0,0,0);
+}/*#000000*/
+.bg-gris43 {
+	background-color: rgb(43,43,43);
+}/*#2B2B2B*/
+.bg-gris86 {
+	background-color: rgb(86,86,86);
+}/*#565656*/
+.bg-gris129 {
+	background-color: rgb(129,129,129);
+}/*#818181*/
+.bg-gris172 {
+	background-color: rgb(172,172,172);
+}/*#ACACAC*/
+.bg-gris215 {
+	background-color: rgb(215,215,215);
+}/*#D7D7D7*/
 .bg-blanco {
-	background-color: white;
-}
-/*texto................................*/
+	background-color: rgb(255,255,255);
+}/*#FFFFFF*/
+
+
+
+/*T E X T O................................*/
 .text-1p3 {
 	font-size: 5em;
 }
@@ -115,14 +129,20 @@
 .text-negrita {
 	font-weight: bold;
 }
+.subrayado {
+	text-decoration: underline;
+}
 .text-center{
 	text-align: center;
 }
 .text-left{
 	text-align: left;
 }
-.text-white{
-	color: white !important;
+.text-rojo {
+	color: red;
+}
+.text-blue{
+ color: #192951;
 }
 .text-gray{
 	color: rgb(83, 88, 95);
@@ -130,20 +150,14 @@
 .text-griso{
 	color: rgb(41, 40, 39);
 }
-.text-blue{
- color: #192951;
+.text-white{
+	color: white !important;
 }
 .text-gris {
 	color: gray;
 }
 .text-lightgray{
 	color: lightgray;
-}
-.subrayado {
-	text-decoration: underline;
-}
-.text-rojo {
-	color: red;
 }
 /*width....................................*/
 .w-100 {
