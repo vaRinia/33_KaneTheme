@@ -17,6 +17,10 @@ nav img {
 .bg-banner {
 	background-image: url("../img/carousel-bg.jpg");
 }
+.bg-footer {
+	background-image: url("../img/img-divider-img.jpg");
+	height: 300px;
+}
 /*lineheight*/
 .line1p5 {
 	line-height: 1.5;
