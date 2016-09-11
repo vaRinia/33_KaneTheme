@@ -35,6 +35,23 @@ progress[value]::-webkit-progress-value {
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
+.iconos {
+	background: linear-gradient(90deg, #658199 50%, #23394D 50%);
+	padding: 7%;
+}/*DOBLE COLOR EN BACKGROUND*/
+.punteado {
+	border-bottom: 1px dashed gray;
+}
+.redes {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+}
+
+
+
+
 
 
 /*MEDIAS*/

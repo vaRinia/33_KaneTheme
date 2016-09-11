@@ -39,6 +39,10 @@
 	padding-left: 2%;
 	padding-right: 2%;
 }
+.pd-lr-5 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
 .pd-lr-12 {
 	padding-left: 12%;
 	padding-right: 12%;
@@ -131,6 +135,9 @@
 }
 .text-gris {
 	color: gray;
+}
+.text-lightgray{
+	color: lightgray;
 }
 .subrayado {
 	text-decoration: underline;
