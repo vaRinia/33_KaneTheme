@@ -54,7 +54,9 @@ hr {
 .dorado {
 	color: rgb(203, 130, 11);
 }
-
+.left {
+	text-align: left;
+}
 
 
 
