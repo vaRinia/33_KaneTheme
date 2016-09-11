@@ -86,8 +86,17 @@
 .mg-t-3 {
 	margin-top: 3%;
 }
+.mg-b-9 {
+	margin-bottom: 9%;
+}
+.mg-t-9 {
+	margin-top: 9%;
+}
 .mg-t-5 {
 	margin-top: 5%;
+}
+.mg-t-7 {
+	margin-top: 7%;
 }
 .mg-l-5 {
 	margin-left: 5%;
@@ -121,11 +130,11 @@
 	background-color: rgb(255,255,255);
 }/*#FFFFFF*/
 /*T E X T O................................*/
-.text-1p3 {
-	font-size: 5em;
+.text-1p5 {
+	font-size: 1.5em;
 }
-.text-1 {
-	font-size: 1.8em;
+.text-p3 {
+	font-size: .3em;
 }
 .text-negrita {
 	font-weight: bold;
