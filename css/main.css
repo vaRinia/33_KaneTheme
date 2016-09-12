@@ -1,8 +1,16 @@
 nav {
 	font-family: 'Roboto', sans-serif !important;
+	position: fixed;
+	right: 15px;
+	left: 15px;
+	z-index: 1030;
+	height: 100px;
+}
+.mg-nav {
+	margin-top: 99px;
 }
 .navbar-default {
-	background-color: rgb(55,171,85) !important;	
+	background-color: rgb(36,176,103) !important;	
 }
 nav img {
 	margin-left: 15px;
@@ -12,7 +20,7 @@ nav img {
 	background-color: rgb(35, 57, 77);
 }
 .verde {
-	background-color: rgb(55,171,85);
+	background-color: rgb(36,176,103);
 }
 .bg-banner {
 	background-image: url("../img/carousel-bg.jpg");
@@ -43,6 +51,14 @@ progress[value]::-webkit-progress-value {
 	background: linear-gradient(90deg, #658199 50%, #23394D 50%);
 	padding: 7%;
 }/*DOBLE COLOR EN BACKGROUND*/
+.iconos:hover {
+	background: rgb(164,105,10);
+	-webkit-animation-name: rotateIn;
+	animation-name: rotateIn;
+}
+.animas:hover {
+	background-color: #2A6C58;
+}
 .punteado {
 	border-bottom: 1px dashed gray;
 }
@@ -56,10 +72,10 @@ hr {
 	width: 20%;
 }
 .dorado {
-	color: rgb(203, 130, 11);
+	color: rgb(164,105,10);
 }
 .bg-dorado {
-	background-color: rgb(203, 130, 11);
+	background-color: rgb(164,105,10);
 }
 .left {
 	text-align: left;
@@ -68,10 +84,10 @@ hr {
 	color: rgb(35, 57, 77);
 }
 .borde-verde {
-	border: 1px solid rgb(55,171,85);
+	border: 1px solid rgb(36,176,103);
 }
 .borde-dorado {
-	border: 1px solid rgb(203,130,11);
+	border: 2px solid rgb(164,105,10);
 }
 h1 {
 	font-size: 5em;
@@ -85,7 +101,7 @@ h1 {
     .banner {
 	font-size: 1.5em;
 	font-weight: 100 !important;
-}
+	}
 }
 @media screen and (min-width: 992px) {
     h2 {
@@ -94,7 +110,7 @@ h1 {
     .banner {
 	font-size: 1.4em;
 	font-weight: 100 !important;
-}
+	}
 }
 @media screen and (max-width: 991px) {
     h2 {
