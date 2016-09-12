@@ -15,6 +15,14 @@ nav {
 nav img {
 	margin-left: 15px;
 }
+nav a:hover{
+	
+	font-size: 1.5em;
+}
+button:hover {
+	font-size: 1.5em;
+	color: rgb(36,176,103) !important;
+}
 /*FONDOS*/
 .azzuull{
 	background-color: rgb(35, 57, 77);
@@ -92,7 +100,10 @@ hr {
 h1 {
 	font-size: 5em;
 }
-
+a img:hover{
+	background-color:rgb(36,176,103);
+	border-radius: 100%;
+}
 /*MEDIAS*/
 @media screen and (min-width: 1200px) {
     h2 {
