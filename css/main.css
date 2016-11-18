@@ -1,0 +1,225 @@
+/*navegador*/
+nav {
+	font-family: 'Roboto', sans-serif !important;
+	right: 15px !important;
+	left: 15px !important;
+}
+.navbar-default {
+	background-color: rgb(36,176,103) !important;	
+}
+nav img {
+	margin-left: 15px;
+}
+nav a:hover{
+	
+	font-size: 1.5em;
+}
+/*FONDOS*/
+.azzuull{
+	background-color: rgb(35, 57, 77);
+}
+.verde {
+	background-color: rgb(36,176,103);
+}
+.bg-banner {
+	background-image: url("../img/carousel-bg.jpg");
+}
+.bg-footer {
+	background-image: url("../img/img-divider-img.jpg");
+	height: 300px;
+}
+.bg-dorado {
+	background-color: rgb(164,105,10);
+}
+/*lineheight*/
+.line1p5 {
+	line-height: 1.5;
+}
+.line2 {
+	line-height: 2;
+}
+/**/
+/*PARA LAS PROGRESS BAR, NO FUNCIONÓ BOOTSTRAP*/
+progress {
+  -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+	background-color: #ACACAC;/*color del fondo*/
+	border-radius: 2px;/*de fuera*/
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; /*sombra en el borde*/
+	margin: 2px;
+	border: 2px solid #ACACAC;/*borde alrededor del color de la barra*/
+}
+progress[value]::-webkit-progress-value {
+	background-color: rgb(164,105,10);/*color de la barra en si*/
+	border-radius: 1px;/*de dentro*/
+}
+.iconos {
+	background: linear-gradient(90deg, #658199 50%, #23394D 50%);
+	padding: 7%;
+}/*DOBLE COLOR EN BACKGROUND*/
+.iconos:hover {
+	background: rgb(164,105,10);
+	-webkit-animation-name: rotateIn;
+	animation-name: rotateIn;
+}
+.animas:hover {
+	background-color: #2A6C58;
+}
+.punteado {
+	border-bottom: 1px dashed gray;
+}
+.redes {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+}
+hr {
+	width: 20%;
+}
+.dorado {
+	color: rgb(164,105,10);
+}
+.left {
+	text-align: left;
+}
+.text-azzuull {
+	color: rgb(35, 57, 77);
+}
+.borde-verde {
+	border: 1px solid rgb(36,176,103);
+}
+.borde-dorado {
+	border: 2px solid rgb(164,105,10);
+}
+h1 {
+	font-size: 5em;
+}
+a img:hover{
+	background-color:rgb(36,176,103);
+	border-radius: 100%;
+}
+button:hover {
+	font-size: 1.5em;
+	color: rgb(36,176,103) !important;
+}
+/*MEDIAS*/
+@media screen and (min-width: 1200px) {
+    h2 {
+    font-size: 3.6em;
+    }
+    .banner {
+	font-size: 1.5em;
+	font-weight: 100 !important;
+	}
+}
+@media screen and (min-width: 992px) {
+    h2 {
+    font-size: 3em;
+    }
+    .banner {
+	font-size: 1.4em;
+	font-weight: 100 !important;
+	}
+}
+@media screen and (max-width: 991px) {
+    h2 {
+    font-size: 2.3em;
+    }
+    .banner {
+    	font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mg-nav {
+	margin-top: 99px;
+	}
+	nav {
+		height: 100px;
+	}
+}
+@media screen and (max-width: 768px) {
+    .mg-nav {
+	margin-top: 70px;
+	}
+}
+/*CAJITAS COLORES*/
+.colores {
+	height: 120px;
+}
+#az69d2e7 {
+	background-color: #67d2e7;
+}
+#azA7DBDB {
+	background-color: #A7DBDB;
+}
+#grE0E4CC {
+	background-color: #E0E4CC;
+}
+#naF38630 {
+	background-color: #F38630;
+}
+#naFA6900 {
+	background-color: #FA6900;
+}
+#roE94C6F{
+	background-color: #E94C6F;
+}
+#rj542733 {
+	background-color: #542733;
+}
+#gr5A6A62 {
+	background-color: #5A6A62;
+}
+#ve1FDA9A {
+	background-color: #1FDA9A;
+}
+#az28ABE3 {
+	background-color: #28ABE3;
+}
+#ve588C73 {
+	background-color: #588C73;
+}
+#beF2E394 {
+	background-color: #F2E394;
+}
+#beF2AE72 {
+	background-color: #F2AE72;
+}
+#roD96459 {
+	background-color: #D96459;
+}
+#rj8C4646 {
+	background-color: #8C4646;
+}
+#azC6D5CD {
+	background-color: #C6D5CD;
+}
+#amFDF200 {
+	background-color: #FDF200;
+}
+#rjDB3340 {
+	background-color: #DB3340;
+}
+#amE8B71A {
+	background-color: #E8B71A;
+}
+#beF7EAC8 {
+	background-color: #F7EAC8;
+}
+#veD0C91F {
+	background-color: #D0C91F;
+}
+#az85C4B9 {
+	background-color: #85C4B9;
+}
+#az008BBA {
+	background-color: #008BBA;
+}
+#roDF514C {
+	background-color: #DF514C;
+}
+#rjDC403B {
+	background-color: #DC403B;
+}
